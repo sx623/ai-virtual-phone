@@ -79,3 +79,8 @@
   for = "/default-wallpaper.webp"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+[[redirects]]
+  from = "/moss/*"
+  to = "https://api.mosi.cn/:splat"
+  status = 200
+  force = true
